@@ -116,7 +116,7 @@ else
   when 'rhel', 'fedora', 'suse'
     package 'mod_security'
   when 'debian'
-    package 'libapache-mod-security'
+    package 'libapache2-modsecurity'
   when 'arch'
     package 'modsecurity-apache'
   end
